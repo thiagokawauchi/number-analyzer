@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: 0;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	background-color: #2a96d4;
+}
+
+header h1 {
+	color: #ffffff;
+	font-size: 3.2rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+main {
+	width: 34rem;
+	background-color: #ffffff;
+	border-radius: 1rem;
+	box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	gap: 1.5rem;
+}
+
+div#enter-number {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+
+input#number {
+	width: 6rem;
+	border: 0.1rem solid #666666;
+	border-radius: 0.3rem;
+	padding: 0.2rem 0.5rem;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+}
+
+button {
+	width: 30%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #2a96d4;
+	border-radius: 2rem;
+}
+
+button:hover {
+	background-color: #243080;
+}
+
+select {
+	border: 0.1px solid #666666;
+}
+
+footer {
+	color: #ffffff;
+	font-weight: 500;
+	text-align: center;
+}
