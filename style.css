@@ -70,16 +70,6 @@ button:hover {
 	background-color: #243080;
 }
 
-select {
-	width: 29rem;
-	border: 0.1px solid #666666;
-    z-index: 3;
-}
-
-.fs-dropdown-options {
-    display: none; 
-}
-
 footer {
 	color: #ffffff;
 	font-weight: 500;

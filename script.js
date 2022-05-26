@@ -13,10 +13,14 @@ function addNumber () {
 	if (number == null || number < 1 || number > 100 || numbersList.includes(number)) {
 		alert('Invalid value or already found in the list.')
 	} else {
-		let createOption = document.createElement('option')
-		createOption.text = `Value ${number} added.`
-		select.appendChild(createOption)
-		
+		let valuesArea = document.getElementById('added-numbers')
+
+		if (numbersList.length == 0) {
+			valuesArea.innerHTML = `Value ${number} added. ✔️`
+		} else {
+			valuesArea.innerHTML += `<br>Value ${number} added. ✔️`
+		}
+
 		registeredNumbers++
 
 		if (number > greatestValue) {
